@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telap
 x-kinRank: "9"
 x-alexaRank: "1071695"
 tags: Find
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/find/master/_listings/telapi/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: hetras Hotel API Version 0 - Get a list of rooms using the provided filtering
+    and pagination criteria.
+  x-api-slug: apihotelv0hotelshotelidrooms-get
+  description: "Find all rooms for the hotel that match the specified filter criteria.
+    The filtering will be done based on the current state of\r\n            the rooms."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
+  humanURL: http://www.telapi.com
+  baseURL: https://api.hetras-certification.net//
+  tags: SMS, Voice, Voice, Target, Stack Network, Technology, SaaS, Mobile, Telecommunications,
+    SMS, Telecommunications, Messages, Messages, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/find/master/_listings/telapi/apihotelv0hotelshotelidrooms-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://taxamo.api.gallery.streamdata.io

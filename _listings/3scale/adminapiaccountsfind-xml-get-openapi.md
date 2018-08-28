@@ -19,6 +19,64 @@ produces:
 consumes:
 - application/json
 paths:
+  //{hostname}/game-memberships:
+    get:
+      summary: Find Game Memberships
+      description: ""
+      operationId: GameMembershipsByHostnameGet
+      x-api-path-slug: hostnamegamememberships-get
+      parameters:
+      - in: query
+        name: filter[game_id]
+      - in: path
+        name: hostname
+      - in: header
+        name: x-client-auth
+      - in: header
+        name: x-client-bearer-token
+      responses:
+        200:
+          description: OK
+      tags:
+      - ""
+  //{hostname}/game-rounds:
+    get:
+      summary: Find Game Rounds
+      description: ""
+      operationId: GameRoundsByHostnameGet
+      x-api-path-slug: hostnamegamerounds-get
+      parameters:
+      - in: query
+        name: filter[game_id]
+      - in: path
+        name: hostname
+      - in: header
+        name: x-client-auth
+      - in: header
+        name: x-client-bearer-token
+      responses:
+        200:
+          description: OK
+      tags:
+      - ""
+  //{hostname}/games:
+    get:
+      summary: Find Games
+      description: ""
+      operationId: GamesByHostnameGet
+      x-api-path-slug: hostnamegames-get
+      parameters:
+      - in: path
+        name: hostname
+      - in: header
+        name: x-client-auth
+      - in: header
+        name: x-client-bearer-token
+      responses:
+        200:
+          description: OK
+      tags:
+      - ""
   /admin/api/accounts/find.xml:
     get:
       summary: Account Find

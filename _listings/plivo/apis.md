@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo
 x-kinRank: "8"
 x-alexaRank: "130970"
 tags: Find
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/find/master/_listings/plivo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Codenvy Account API - Get Account Find
+  x-api-slug: accountfind-get
+  description: Get account information by its name. JSON with account details is returned.
+    This API call requires system/admin or system/manager role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/find/master/_listings/plivo/accountfind-get-openapi.md
 x-common:
 - type: x--net-library
   url: https://www.plivo.com/docs/helpers/dotnet/

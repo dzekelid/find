@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Dezrez
 x-complete: 1
@@ -74,4 +73,3 @@ paths:
       - Of
       - Vendor
       - Owner
----

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS EC2
 x-complete: 1
@@ -23,4 +22,3 @@ paths:
           description: OK
       tags:
       - Server Instance Availability
----
